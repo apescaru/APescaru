@@ -696,7 +696,6 @@ button.ap-prettier .ap-levels div.ap-level.ap-level-4 {
 
 .ap-container .ap-content-box .ap-box-container .ap-description-tree-part.ap-description-middle {
   width: 100%;
-  min-width: 225px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -722,7 +721,7 @@ button.ap-prettier .ap-levels div.ap-level.ap-level-4 {
 }
 
 .ap-project-slider {
-  width: calc(100% - 150px);
+  width: calc(100% - 100px);
   padding-top: 25px;
   min-height: 500px;
   display: flex;
@@ -1045,3 +1044,13 @@ button.ap-prettier .ap-levels div.ap-level.ap-level-4 {
 }
 
 /* AP LOADER END */
+
+.ap-versioning {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 998;
+  color: rgba(255,255,255, .4);
+  font-family: "roboto";
+  font-size: 8px;
+}
