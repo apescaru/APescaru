@@ -103,6 +103,14 @@ function handleProjectsChange(x) {
     }
   };
 
+  $("#ap-toggleButton").on("click", () => {
+    $("#ap-collapsed-menu").toggleClass("active");
+  });
+
+  $("#ap-collapsed-menu a").on("click", () => {
+    $("#ap-collapsed-menu").removeClass("active");
+  });
+
   window.addEventListener("resize", updateWindowWidth);
 
 
