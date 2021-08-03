@@ -175,6 +175,7 @@ code {
   letter-spacing: 15px;
   padding-top: 5%;
   padding-right: 10%;
+  overflow-x: scroll;
 }
 
 .ap-navi ul.ap-collapsed-menu.active {
@@ -1000,7 +1001,8 @@ button.ap-prettier .ap-levels div.ap-level.ap-level-4 {
 }
 
 .ap-content-box.ap-black-bg .ap-contact-box p:nth-child(even) {
-  width: 70%;
+  width: 100%;
+  max-width: 210px;
   padding-bottom: 5px;
   border-bottom: 1px solid rgb(252, 118, 106);
 }
